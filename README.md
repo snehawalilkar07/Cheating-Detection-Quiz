@@ -24,14 +24,6 @@ A full-stack web application to conduct online tests with real-time AI-based che
 
 ---
 
-## 🧱 Project Structure
-
-MY-CHEATING-DETECTION-APP/
-├── Backend-Cheating-detection/ # Flask + YOLOv8 backend
-├── Frontend-Cheating-detection/ # React + Vite frontend
-
----
-
 ## ⚙️ Technologies Used
 
 - **Frontend:** React, Vite, HTML, CSS, JS
