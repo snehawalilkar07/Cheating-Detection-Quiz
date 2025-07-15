@@ -7,6 +7,8 @@ Backend-Cheating-detection/__pycache__/
 *.db
 *.sqlite3
 instance/
+__pycache__/
+env/
 
 # === Node Frontend ===
 Frontend-Cheating-detection/node_modules/
@@ -20,3 +22,8 @@ Frontend-Cheating-detection/.env
 # === Virtual environment (optional general catch-all) ===
 venv/
 env/
+
+yolov8s.pt
+*.pt
+/models/
+__pycache__/
