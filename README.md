@@ -13,7 +13,6 @@ A full-stack web application to conduct online tests with real-time AI-based che
   - Multiple people
   - Face orientation
   - Face missing or turned
-  - Eye movements (optional)
 - Face verification before test starts
 
 ### 📋 Quiz System
