@@ -1,0 +1,25 @@
+.dashboard-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  min-width: 200px;
+  transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+}
+
+.dashboard-card h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #033452;
+}
+
+.dashboard-card p {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}

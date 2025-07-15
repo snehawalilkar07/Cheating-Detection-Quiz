@@ -1,0 +1,58 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: linear-gradient(180deg, #002f5d, #033452);
+
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 20px;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar h2 {
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ff6b81; /* Accent coral color */
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #ff6b81; /* coral hover */
+  color: white;
+  transform: translateX(5px);
+}
+
+.sidebar a {
+  color: white; /* or #eaf6f6 for soft blue */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #fff8f9; /* Coral hover */
+}
+

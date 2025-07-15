@@ -1,0 +1,22 @@
+# === Python Backend ===
+Backend-Cheating-detection/env/
+Backend-Cheating-detection/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+
+# === Node Frontend ===
+Frontend-Cheating-detection/node_modules/
+Frontend-Cheating-detection/.env
+
+# === System & IDE ===
+.DS_Store
+.vscode/
+*.log
+
+# === Virtual environment (optional general catch-all) ===
+venv/
+env/
