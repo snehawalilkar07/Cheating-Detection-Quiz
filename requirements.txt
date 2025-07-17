@@ -6,3 +6,4 @@ mediapipe==0.10.9
 opencv-python==4.9.0.80
 gunicorn
 ultralytics
+pyttsx3
