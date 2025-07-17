@@ -1,8 +1,6 @@
 import cv2
 
-face_cap = cv2.CascadeClassifier(
-        "D:/Python Projects/Cheating_detection/env/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml"
-    )
+face_cap = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 def verify_face(video_data):
     
